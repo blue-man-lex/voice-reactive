@@ -1,0 +1,38 @@
+{
+  "VOICE_REACTIVE": {
+    "Title": "Voice Reactive Portraits",
+    "Settings": {
+      "EnableDock": "Show Floating Voice Dock",
+      "EnableDockHint": "Displays an independent draggable window with portraits of connected players and the GM's active NPC.",
+      "EnableMic": "Enable Local Microphone Detection",
+      "EnableMicHint": "Requests microphone access to locally measure voice volume (audio is never recorded or streamed).",
+      "AudioDeviceId": "Selected Microphone",
+      "AudioDeviceIdHint": "Specific audio input device.",
+      "MicBoost": "Microphone Gain Boost",
+      "MicBoostHint": "Multiplier for quieter headsets or microphones with active noise gates (default x2.5).",
+      "MicThreshold": "Microphone Sensitivity Threshold (%)",
+      "MicThresholdHint": "Minimum volume level required to trigger the speaking glow (default 8%).",
+      "ReleaseDelay": "Speaking Release Delay (ms)",
+      "ReleaseDelayHint": "How long the glow remains active after you stop speaking to prevent flickering between words (default 350ms).",
+      "PlayerGlowColor": "Player Glow Color",
+      "PlayerGlowColorHint": "Neon halo color when players speak (default #43b581 - Discord green).",
+      "GmGlowColor": "GM / NPC Glow Color",
+      "GmGlowColorHint": "Neon halo color when the GM speaks (default #f1c40f - golden).",
+      "EnableDiorama": "Fried Diorama Integration",
+      "EnableDioramaHint": "When Fried Diorama is enabled, highlights full-body character portraits on the diorama stage.",
+      "GlowIntensity": "Glow Halo Intensity",
+      "GlowIntensityHint": "Adjusts the brightness and width of the neon aura around the character in Fried Diorama.",
+      "ShowDioramaName": "Show Character Name on Speech",
+      "ShowDioramaNameHint": "Displays a clean name badge over the talking character during dialogue."
+    },
+    "Dock": {
+      "Header": "Voice Dock",
+      "GmSpeaker": "GM Speaker",
+      "NoCharacter": "No Character",
+      "ClickToSelect": "Select as speaker",
+      "MicActive": "Microphone Active",
+      "MicMuted": "Microphone Muted (click to enable)",
+      "TooltipSpeaking": "Speaking now"
+    }
+  }
+}

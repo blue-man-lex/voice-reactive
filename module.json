@@ -1,0 +1,41 @@
+{
+  "id": "voice-reactive",
+  "title": "Voice Reactive Portraits",
+  "description": "<p>Автономная голосовая подсветка портретов в Foundry VTT: реактивный оверлей Fried Diorama, подсветка токенов на карте и независимый плавающий док говорящих участников.</p>",
+  "version": "1.0.0",
+  "socket": true,
+  "url": "https://github.com/blue-man-lex/voice-reactive",
+  "manifest": "https://raw.githubusercontent.com/blue-man-lex/voice-reactive/main/module.json",
+  "download": "https://github.com/blue-man-lex/voice-reactive/releases/download/v1.0.0/voice-reactive.zip",
+  "readme": "https://github.com/blue-man-lex/voice-reactive/blob/main/README.md",
+  "bugs": "https://github.com/blue-man-lex/voice-reactive/issues",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Art_lex",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/voice-reactive.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ],
+  "flags": {}
+}
